@@ -1,3 +1,5 @@
+// https://en.wikipedia.org/wiki/Luhn_algorithm
+// 
 var luhn = function (num) {
     
     var numArray = num.toString().split("").reverse();
